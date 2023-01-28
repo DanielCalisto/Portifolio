@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+}
+
+.apresentacao {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left:40px;
+}
+
+.div-foto {
+     padding: 18px 5px ;
+    
+}
+
+.parte1 {
+    background-color:#47b77b51;
+    width: 30%;
+    height: 100vh;
+    padding: 8px;
+    border-right: 8px solid #4e979084;
+    
+}
+
+.foto2 {
+    width: 50px;
+    height: 35px;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contato span {
+
+     font-size: 24px;
+     cursor: pointer;
+}
+
+.contato a img  {
+    width: 40px;
+    height: 40px;
+
+}
+
+.contato1 {
+    font-size: 30px;
+}
+
+.h4{
+    margin-bottom: 30px;
+}
+
+.div-contato {
+    padding: 6px ;
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.contato1 {
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+#divisoria {
+    display: flex;
+    
+}
+
+.sobre-mim{
+    margin: 20px 30px;
+    font-size: 30px;
+}
+
+.texto {
+    margin-top: 60px;
+    width: 600px;
+    margin-left: 40px;  
+    border:1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div > span {
+    font-size: 20px;
+}
+
+.parte2 {
+    background-color:#ffffff59;
+    width: 60%;
+}
+
+.skill {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 30px;
+
+
+}
+
+.div-lista {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+li {
+    padding: 20px;
+     font-size: 24px;
+}
+
+.skill-imagem {
+    margin-left: 150px;
+    margin-top: 120px ; 
+    
+}
+
+.css {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
