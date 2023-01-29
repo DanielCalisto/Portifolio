@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+}
+
+.apresentacao {
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left:40px;
+}
+
+.div-foto {
+     padding: 18px 5px ;
+    
+}
+
+.parte1 {
+    background-color:#47b77b51;
+    width: 30%;
+    height: 150vh;
+    padding: 8px;
+    border-right: 8px solid #4e979084;
+    
+}
+
+.foto2 {
+    width: 50px;
+    height: 35px;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.contato span {
+
+     font-size: 24px;
+     cursor: pointer;
+}
+
+.contato a img  {
+    width: 40px;
+    height: 40px;
+
+}
+
+.contato1 {
+    font-size: 30px;
+}
+
+.h4{
+    margin-bottom: 30px;
+}
+
+.div-contato {
+    padding: 6px ;
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.contato1 {
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+
+#divisoria {
+    display: flex;
+    
+}
+
+.sobre-mim{
+    margin: 20px 30px;
+    font-size: 30px;
+}
+
+.texto {
+    margin-top: 60px;
+    width: 600px;
+    margin-left: 40px;  
+    border:1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div > span {
+    font-size: 20px;
+}
+
+.parte2 {
+    background-color:#ffffff59;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.div-section {
+    margin-top: 30px;
+    
+}
+
+.div-section > h1 {
+    font-family: "lobster";
+}
+
+.div-section1 {
+    margin-top: 30px;
+}
+
+.icone >img {
+    width: 52px;
+    height: 52px;
+    
+}
+
+nav > button {
+    width: 100px;
+    height: 60px;
+    border: NONE;
+    background-color: white;
+    font-size: 20px;
+}
+
+nav > button:hover {
+    border-radius: 10px;
+    background-color:#47b77b51;
+    color:#4e979084;
+    font-weight: bold;
+}
+
+.div2 {
+    display: block;
+    
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container1 span {
+    margin-top: 12rem;
+    width: 500px;
+    height: 200px;
+    margin-left: 12rem;
+    font-size: 24px;
+    border-radius: 10px;
+    
+    padding: 30px 2rem 0px 40px;
+    background-color: rgba(204, 204, 204, 0.374);
+}
+
+.block{
+    display: flex;
+    position: absolute; 
+    margin-left: -7rem;   
+}
+
+.block > button {
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+buttom > img {
+    margin-left: 8rem;
+    margin-top: 33px;
+}
+
+
+.container2 {
+margin-top:13rem;
+margin-left: -23rem;
+font-size: 18px;
+}
+
+div > ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+li > img {
+    width: 80px;
+    height: 80px;
+}
+.hide {
+   display: none; 
+}
+
+
+
+#skill {
+    display: flex;
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 18rem;
+    
+}
+
+#skill > div {
+    display: flex;
+}
+
+#cursos {
+    margin-top: 15rem;
+
+}
+
