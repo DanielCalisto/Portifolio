@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
     <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -55,47 +59,146 @@
 
         </section>
 
-            <section class="parte2">
+     <section class="parte2">
 
-            <div>
-                <h1 class="sobre-mim" >Sobre Mim  </h1>
-            </div>
-            <div class="texto">
-                <span >
+            <nav class="block">
+                <button  id="btna" onclick="divA()" >
+                    Sobre Mim
+                </button>
+
+                <button id="btnb" onclick="divB()">
+                    Skills
+                </button>
+
+                <button id="btnc" onclick="divC()">
+                    Cursos
+                </button>
+                <div>
+                 <button class="icone"  id="btnd" onclick="divD()">            
+                        <img  src="chat-message.png" alt="">
+                </button>
+                </div>
+            </nav>
+    
+           
+            <div id="parte1" class="hide">
+
+                <div class="container1">
+                    <span >
                         Me encontro iniciando na area de 
-                    desenvolvimento de paginas, 
-                    atualmente cursando quatro cursos,
-                    sendo eles, de WebDesigner Front 
-                    end, JavaScript, inglês e técnico
-                     em desenvolvimento de sistemas, nas instituições, 
-                     Senai, Udemy e ETEC. Estou 
-                    em busca de novas experiências e oportunidades .
-                </span>
+                        desenvolvimento de paginas, 
+                        atualmente cursando quatro cursos,
+                        sendo eles, de WebDesigner Front 
+                        end, JavaScript, inglês e técnico
+                        em desenvolvimento de sistemas, nas instituições, 
+                        Senai, Udemy e ETEC. Estou 
+                        em busca de novas experiências e oportunidades .
+                        </span>     
+                </div>
             </div>
             
-            <h1 class="skill">Skills</h1>
-            <div class="div-lista">
-                <ul class="lista">
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>JS</li>
+        <div class="hide" id="parte2">
+            <div id="skill" class="container2" >
+                <ul class="divB">
+                    <li  >
+                    HTML
+                    </li>
+                    <li>
+                        <img src="html-5.png" alt="">
+                    </li>
+                </ul>
+
+                <ul  >
+
+                    <li >
+                    CSS
+                    </li>
+                    <li>
+                        <img src="css3.png" alt="">
+                    </li>
+                </ul>
+                <ul  >
+
+                    <li >
+                    JavaScript
+                    </li>
+                    <li>
+                        <img src="javascript.png" alt="">
+                    </li>
+                </ul>
+                <ul  >
+
+                    <li >
+                    Figma
+                    </li>
+                    <li>
+                        <img src="figma.png" alt="">
+                    </li>
+                </ul>
+                
+                <ul  >
+
+                    <li >
+                    GitHub
+                    </li>
+                    <li>
+                        <img src="github.png" alt="">
+                    </li>
+                </ul>
+                <ul  >
+
+                    <li >
+                    VS Code
+                    </li>
+                    <li>
+                        <img src="visual-studio--v2.png" alt="">
+                    </li>
                 </ul>
             </div>
-
-                <div class="skill-imagem">
-                    <a href="" >
-                        <img class="css" src="css3.png" alt="">
-                    </a>
-                    <a href="" >
-                        <img class="css" src="html-5.png"  alt="">
-                    </a>
-                    <a href="" >
-                        <img class="css" src="javascript.png" alt="">
-                    </a>
-                </div>
             
         </div>
+
+            <div id="parte3" class="hide" >
+                    
+                <ul>
+                    <li  >
+                    WEB DESIGNER
+                    </li>
+                    <li>
+                    TECNICO
+                    </li>
+                </ul>
+            </div>
+                 <div id="parte4" class="hide">
+                    <form>
+
+                        <label for="name">nome:</label>
+                        <input type="text" placeholder="Digite seu Nome:" id="name">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Digite seu E-mail:">
+                        <label for="tel">Celular</label>
+                        <input type="tel" id="tel" placeholder="Digite seu Numero:">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10">Deixe Sua Mensagem</textarea>
+                        <input type="submit" onclick="confirm()">
+                   </form>
+                 </div>
+
+
+
+
+        </div>
+
+        </div>
+
         </section>
+
+        
+        
     </div>
+
+    
+    <script src="script.js"></script>
 </body>
+
 </html>
