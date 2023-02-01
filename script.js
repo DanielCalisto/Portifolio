@@ -12,11 +12,14 @@ function divA() {
     parte2.style.display="none"
     parte3.style.display="none"
     parte4.style.display="none"
-    botao1.style.backgroundColor="red"
+    botao1.style.backgroundColor="#5FE3DD"
     botao2.style.backgroundColor="white"
     botao3.style.backgroundColor="white"
     botao4.style.backgroundColor="white"
     botao1.style.fontFamily="lobster"
+    botao2.style.fontFamily=""
+    botao3.style.fontFamily=""
+
 }
 
 function divB() {
@@ -25,10 +28,12 @@ function divB() {
     parte3.style.display="none"
     parte4.style.display="none"
     botao1.style.backgroundColor="white"
-    botao2.style.backgroundColor="red"
+    botao2.style.backgroundColor="#5FE3DD"
     botao3.style.backgroundColor="white"
     botao4.style.backgroundColor="white"
+    botao1.style.fontFamily=""
     botao2.style.fontFamily="lobster"
+    botao3.style.fontFamily=""
 }
 
 function divC() {
@@ -38,8 +43,10 @@ function divC() {
     parte4.style.display="none"
     botao1.style.backgroundColor="white"
     botao2.style.backgroundColor="white"
-    botao3.style.backgroundColor="red"
+    botao3.style.backgroundColor="#5FE3DD"
     botao4.style.backgroundColor="white"
+    botao1.style.fontFamily=""
+    botao2.style.fontFamily=""
     botao3.style.fontFamily="lobster"
 }
 
@@ -54,5 +61,5 @@ function divD() {
 }
 
 function confirm() {
-    window.alert("s")
+    window.alert("Email Enviado com Sucesso!")
 }

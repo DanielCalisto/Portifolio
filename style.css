@@ -2,14 +2,24 @@
     margin: 0;
 }
 
-body {
-    height: 100%;
-    max-height: 100%;
-
-  }
-    .class {
-        background-color: black;
+.parte1 {
+    background-color:#47b77b51;
+    border-right: 9px solid #4e979084;
+    
     }
+
+body {
+    display: flex;
+}
+
+.section2 {
+
+}
+
+.container1 {
+    width: rem;
+}
+
 .apresentacao {
     padding: 10px;
     margin-left: 40px;
@@ -28,15 +38,6 @@ body {
 
 .div-foto {
      padding: 18px 5px ;
-    
-}
-
-.parte1 {
-    background-color:#47b77b51;
-    width: 30%;
-    height: 150vh;
-    padding: 8px;
-    border-right: 8px solid #4e979084;
     
 }
 
@@ -98,6 +99,15 @@ h1 {
     font-size: 30px;
 }
 
+#parte1 {
+  font-size: 24px;
+  background-color: rgba(204, 204, 204, 0.518);
+  padding: 20px;
+  border-radius: 30px;
+  font-family: calisto;
+  width:35rem;}
+
+
 .texto {
     margin-top: 60px;
     width: 600px;
@@ -107,14 +117,10 @@ h1 {
     padding: 10px;
 }
 
-div > span {
-    font-size: 20px;
-}
 
-.parte2 {
-    background-color:#ffffff59;
-    width: 60%;
-
+#navegacao {
+    display: flex;
+    flex-direction: column;
 }
 
 .adblock {
@@ -159,22 +165,6 @@ nav > button:hover {
 }
 
 
-.container1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.container1 span {
-    margin-top: 12rem;
-    width: 500px;
-    height: 200px;
-    margin-left: 12rem;
-    font-size: 24px;
-    border-radius: 10px;
-    
-    padding: 30px 2rem 0px 40px;
-    background-color: rgba(204, 204, 204, 0.374);
-}
 
 #btna {
   
@@ -195,8 +185,9 @@ nav > button:hover {
 
 
 .block{
-    display: flex;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100px;
 }
 
 .block > button {
@@ -204,16 +195,9 @@ nav > button:hover {
 }
 
 
-.container2 {
-margin-top:13rem;
-margin-left: -23rem;
-font-size: 18px;
-}
-
 div > ul  {
     list-style: none;
-    display: flex;
-    flex-direction: column;}
+}
 
 
 li > img {
@@ -221,46 +205,42 @@ li > img {
     height: 80px;
 }
 
+.container {
+    display: flex;
+}
+
+
+
 .hide {
    display: none; 
 }
 
-
-
-#skill {
+#parte4 {
     display: flex;
-    text-align: center;
-    margin-left: 3rem;
-    margin-top: 18rem;
-    
+    flex-direction: column;
+    margin-top: ;
 }
 
-#skill > div {
-    display: flex;
-}
-
-#parte3 {
-    margin-top: 15rem;   
-}
-
-form > input {
-    width: 20rem;
-    height: 20px;
-}
-
-form > textarea {
-    width: 20rem;
-    height: 10rem;
-}
 
 form {
-    margin-top: 4rem;
-    margin-left: 5rem;
-    display:flex;
-    flex-direction: column;
+    width: 20rem;
 }
 
-#form {
-width: 20rem;
+@media (max-width: 600px) {
+    #hero h1 {
+        font-size:26px;
+        width: 90%;
+    }
+
+    #hero p {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 15px 0;
+    }
 }
 
+@media(max-width: 1302px) {
+    #form {
+        margin-left: 10rem;
+    }
+}
