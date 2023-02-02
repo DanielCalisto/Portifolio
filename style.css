@@ -1,20 +1,30 @@
 *{
     margin: 0;
+    
 }
 
 .parte1 {
     background-color:#47b77b51;
     border-right: 9px solid #4e979084;
+    width: 55vh;
     
     }
+#textandimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+#textandimg > h1{
+    font-family: lobster;
+}
 
 body {
     display: flex;
 }
 
-.section2 {
-
-}
 
 .container1 {
     width: rem;
@@ -28,17 +38,11 @@ body {
 
 
 .foto {
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    margin-left:40px;
-}
-
-.div-foto {
-     padding: 18px 5px ;
-    
+    width: 280px;
+    height: 280px;
+    border-radius: 280px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
 }
 
 .foto2 {
@@ -46,11 +50,11 @@ body {
     height: 35px;
 }
 
-.contato{
+.contato { 
     display: flex;
     justify-content: space-between;
     margin-left:40px;
-    margin-top: 20px;
+    margin-right: 10px;
     font-size: 30px;
     margin-bottom: 40px;
 }
@@ -69,6 +73,7 @@ body {
 
 .contato1 {
     font-size: 30px;
+    font-family: lobster;
 }
 
 .h4{
@@ -91,6 +96,20 @@ h1 {
 
 #divisoria {
     display: flex;
+    height: 100vh;
+
+}
+
+.divisoria2 {
+    width: 100vh;
+    height: 100vh;
+}
+
+#posbutton {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -106,16 +125,6 @@ h1 {
   border-radius: 30px;
   font-family: calisto;
   width:35rem;}
-
-
-.texto {
-    margin-top: 60px;
-    width: 600px;
-    margin-left: 40px;  
-    border:1px solid;
-    border-radius: 10px;
-    padding: 10px;
-}
 
 
 #navegacao {
@@ -164,30 +173,27 @@ nav > button:hover {
     font-weight: bold;
 }
 
-
-
 #btna {
-  
-    margin-left:10rem;
+    margin-left:10rem; 
 }
 
 #btnb {
-
-    margin-left: 5rem;
+    margin-left: 5rem;  
 }
 
 #btnc {
     margin-left: 5rem;
 }
+
 #btnd {
     margin-left: 5rem;
 }
-
 
 .block{
   display: flex;
   justify-content: center;
   height: 100px;
+  align-items: center;
 }
 
 .block > button {
@@ -195,52 +201,105 @@ nav > button:hover {
 }
 
 
-div > ul  {
+#parte2 >div > ul  {
     list-style: none;
+}
+
+#parte3 > ul > li {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#parte3 > ul {
+    border: 1PX solid;
+    border-color: aquamarine;
+    border-radius: 30px;  
+    padding: 30px 50px 30px 50px;
 }
 
 
 li > img {
     width: 80px;
     height: 80px;
-}
+}   
 
 .container {
     display: flex;
 }
 
-
+.div2{
+    background-color: #ccc;
+}
 
 .hide {
    display: none; 
 }
 
-#parte4 {
+form > input, textarea {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    width: 20rem;
     display: flex;
     flex-direction: column;
-    margin-top: ;
+}
+
+#parte4 {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 
-form {
-    width: 20rem;
-}
 
-@media (max-width: 600px) {
-    #hero h1 {
-        font-size:26px;
-        width: 90%;
+@media (max-width: 440px) {
+    .div-foto img {
+     width: 140px;
+     height: 140px;
     }
 
-    #hero p {
-        font-size: 16px;
-        font-weight: 300;
-        margin: 15px 0;
+    .parte1{
+        width:385px;
+        border-right:solid 3px;
+        border-color: aquamarine;
+        height: 70%;  
     }
-}
 
-@media(max-width: 1302px) {
-    #form {
-        margin-left: 10rem;
+    .apresentacao, .contato1, .contato {
+        font-size: 23px;
+    }
+
+    .textandimg {
+        font-family: lobster;
+        display: flex;
+        flex-direction: column;   
+        text-align: center;  
+        margin-left: -40px; 
+    }
+    
+    .contato1 {
+        margin-left: -5px;
+        margin-top:-10px ;
+        margin-bottom:30px;
+    }
+
+    .contato span {
+        font-size: 18px ;
+    }
+    .div-contato {
+        margin-left:-24px;
+    }
+
+    .contato a img{
+        width: 25px;
+        height: 25px;
+    }
+  
+    .contato2{
+        width: 111px;
+        margin-left: -16px;
+        margin-bottom: -20px;
+        font-family: lobster;
     }
 }

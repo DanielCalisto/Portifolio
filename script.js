@@ -7,6 +7,7 @@ let parte2 = document.getElementById("parte2")
 let parte3 = document.getElementById("parte3")
 let parte4 = document.getElementById("parte4")
 
+
 function divA() {
     parte1.style.display="block"
     parte2.style.display="none"
@@ -58,6 +59,7 @@ function divD() {
     botao1.style.backgroundColor="white"
     botao2.style.backgroundColor="white"
     botao3.style.backgroundColor="white"
+    
 }
 
 function confirm() {
